@@ -1,0 +1,90 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient( circle farthest-corner at 12.9% 20.3%,  rgba(255,162,104,1) 0%, rgba(254,80,147,1) 41% );
+  }
+  .container > h1{
+    font-size: medium;
+    font-family: fantasy;
+    font-style:italic;
+    font-weight: 100;
+    font-size:xx-large;
+  }
+  .container {
+    font-size: 22px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    
+  }
+  .timer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #a99c9c; /* Dark border */
+    background-color: #b4aaaa; /* Dark background */
+    color: white;
+    padding: 25px 35px;
+    border-radius: 30px;
+  }
+  .timer > div {
+    font-size: 60px;
+    padding: 5px 10px;
+    background-color: #5e5262; /* Slightly lighter background */
+    border-radius: 8px;
+  }
+  .dots {
+    color: #aaa; /* Lighter color for the dots */
+  }
+  button {
+    border: none;
+    padding: 12px 40px;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: italic;
+    font-family:monospace;
+    font-size: x-large;
+    transition: background-color 0.3s ease;
+  }
+  button:nth-child(1) {
+    background-color: #4caf50; /* Green */
+  }
+  button:nth-child(2) {
+    background-color: #2196f3; /* Blue */
+  }
+  button:nth-child(3) {
+    background-color: #f44336; /* Red */
+  }
+  button:nth-child(4) {
+    background-color: #ff9800; /* Orange */
+  }
+  button:hover {
+    background-color: #76c7c0; /* Light hover effect */
+  }
+  button:active {
+    background-color: #45b39d; /* Active state */
+  }
+  button:disabled {
+    background-color: #9e9e9e; /* Disabled state color */
+  }
+  .btnContainer {
+    display: flex;
+    gap: 15px;
+  }
